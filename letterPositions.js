@@ -1,8 +1,8 @@
 //Check if two arrays equal each other
-const eqArrays = function (arr1, arr2) {
+const eqArrays = function(arr1, arr2) {
   let ifTrue = null;
   if (arr1.length !== arr2.length)
-    return false
+    return false;
   for (let i = 0; i < arr1.length; i++) {
     if (arr1[i] !== arr2[i]) {
       ifTrue = false;
@@ -13,12 +13,12 @@ const eqArrays = function (arr1, arr2) {
   return ifTrue;
 };
 
-const letterPositions = function (sentence) {
-  const results = {}
+const letterPositions = function(sentence) {
+  const results = {};
   // logic to update results here
 
   for (let i = 0; i < sentence.length; i++) {
-    let currentLetter = sentence[i]
+    let currentLetter = sentence[i];
     if (currentLetter !== ' ') {
       results[currentLetter] = [];
 
@@ -35,7 +35,7 @@ const letterPositions = function (sentence) {
 
 
 
-const assertArraysEqual = function (a, b, expectation) {
+const assertArraysEqual = function(a, b, expectation) {
   if (eqArrays(a, b) === expectation) {
     console.log(`✅✅✅Assertion Passed: ${a} ${b} ${expectation}`);
   } else {
