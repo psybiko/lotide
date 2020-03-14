@@ -1,0 +1,28 @@
+{
+  "name": "@psybiko/lotide",
+  "version": "1.0.0",
+  "description": "Lotide is a simplified version of Lodash",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^7.1.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psybiko/lotide.git"
+  },
+  "author": "Kc Kai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/psybiko/lotide/issues"
+  },
+  "homepage": "https://github.com/psybiko/lotide#readme"
+}
